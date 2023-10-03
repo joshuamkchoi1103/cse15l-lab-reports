@@ -3,7 +3,7 @@
    - The working directory when the command was run was in the default home directory
    - I got that output because I need to include a pathway to a directory in order to change the directory(cd = change directory)
    - The output is not an error
-2. - ![Image](Screenshot_2023-10-03_130825.png)
+2. - ![Image](Screenshot_2023-10-03_132418.png)
    - d
    - d
    - d
@@ -29,9 +29,9 @@
 
 **cat**
 1. - ![Image](Screenshot_2023-10-03_131625.png)
-   - x
-   - x
-   - x
+   - The working directory when the command was run was in the default home directory
+   - I got this output because there is a runtime error with the command "cat". When you call cat in the terminal window, you need to include a file after it so that it can read the data and content of the file.
+   - This output is an error
 2. - d
    - d
    - d
