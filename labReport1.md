@@ -32,10 +32,10 @@
    - The working directory when the command was run was in the default home directory
    - I got this output because there is a runtime error with the command "cat". When you call cat in the terminal window, you need to include a file after it so that it can read the data and content of the file.
    - This output is an error
-2. - d
-   - d
-   - d
-   - d
+2. - ![Image](Screenshot_2023-10-03_125519.png)
+   - The working directory when the command was run was in the default home directory
+   - I got this output because when you run cat, you need to put a file after so that the data and content can be read. However, "lecture1" is a directory and not a file so there is no content or data that can be read
+   - This output is not an error
 3. - d
    - d
    - d
