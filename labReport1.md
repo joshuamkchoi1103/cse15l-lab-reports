@@ -7,10 +7,10 @@
    - The working directory when the command was run was in the default home directory.
    - I got this output because I cd(change directory) to the lecture1 directory. Therefore, any command I do after will be within the lecture1 working directory.
    - The output is not an error
-3. - d
-   - d
-   - d
-   - d
+3. - ![Image](Screenshot_2023-10-03_133513.png)
+   - Thr working directory when the command was run was in the default home directory
+   - I got this output because you can only cd into directories and not files. Therefore, the output tells us that the file path is not a directory.
+   - The output is not an error
   
 **ls**
 1. - ![Image](Screenshot_2023-10-03_130825.png)
