@@ -21,10 +21,10 @@
    - The working directory when the command was run was in the default home directory
    - I got this output because ls is listing the files within the lecture1 directory. So therefore the files that show up are present in the lecture1 working directory
    - The output is not an error
-3. - d
-   - d
-   - d
-   - d
+3. - ![Image](Screenshot_2023-10-03_133738.png)
+   - The working directory when the command was run was in the default home directory
+   - I got this output because when I am calling ls to the pathway, the only file that is present is the one I called within the path.
+   - This is not an error
 
 
 **cat**
