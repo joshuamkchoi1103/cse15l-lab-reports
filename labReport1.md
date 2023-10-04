@@ -1,4 +1,4 @@
-**cd**
+```**cd**```
 1. - ![Image](Screenshot_2023-10-03_125519.png)
    - The working directory when the command was run was in the default home directory
    - I got that output because I need to include a pathway to a directory in order to change the directory(cd = change directory)
@@ -12,7 +12,7 @@
    - I got this output because you can only cd into directories and not files. Therefore, the output tells us that the file path is not a directory.
    - The output is not an error
   
-**ls**
+```**ls**```
 1. - ![Image](Screenshot_2023-10-03_130825.png)
    - The working directory when the command was run was in the default home directory
    - I got this output because ls stands for "list files" and within my default home directory, the only file that is present is "lecture1"
@@ -27,7 +27,7 @@
    - This is not an error
 
 
-**cat**
+```**cat**```
 1. - ![Image](Screenshot_2023-10-03_131625.png)
    - The working directory when the command was run was in the default home directory
    - I got this output because there is a runtime error with the command "cat". When you call cat in the terminal window, you need to include a file after it so that it can read the data and content of the file.
