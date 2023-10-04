@@ -15,7 +15,7 @@
 ```ls```
 1. - ![Image](Screenshot_2023-10-03_130825.png)
    - The working directory when the command was run was in the default home directory
-   - I got this output because ```ls``` stands for "list files" and within my default home directory, the only file that is present is "lecture1"
+   - I got this output because ```ls``` stands for "list files" and within my default home directory, the only file or directory that is present is "lecture1"
    - The output is not an error
 2. - ![Image](Screenshot_2023-10-03_132829.png)
    - The working directory when the command was run was in the default home directory
