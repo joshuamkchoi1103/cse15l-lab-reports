@@ -2,7 +2,7 @@
 1. - ![Image](Screenshot_2023-10-03_125519.png)
    - The working directory when the command was run was in the default home directory
    - I got that output because I need to include a pathway to a directory in order to change the directory(```cd``` = change directory)
-   - The output is not an error
+   - The output is an error because a file pathway needs to be passed on with the command ```cd``` in order for the directory to change.
 2. - ![Image](Screenshot_2023-10-03_132418.png)
    - The working directory when the command was run was in the lecture1 directory.
    - I got this output because I ```cd```(change directory) to the lecture1 directory. Therefore, any command I do after will be within the lecture1 working directory.
