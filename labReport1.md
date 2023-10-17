@@ -30,8 +30,8 @@
 ```cat```
 1. - ![Image](Screenshot_2023-10-03_131625.png)
    - The working directory when the command was run was in the default home directory
-   - I got this output because there is when you call ```cat``` in the terminal window with no arguments it will read data from the input and write it to its normal output.
-   - This output is an error because it is not able to find any file to read the data and put its standard output.
+   - I got this output because there is when you call ```cat``` in the terminal window with no arguments it will read data from the input and write it to its standard output.
+   - This output is not an error because it is waiting for the user to enter an input and it will give a standard output as a result based off of the input.
 2. - ![Image](Screenshot_2023-10-03_133158.png)
    - The working directory when the command was run was in the default home directory
    - I got this output because when you run ```cat```, you need to put a file after so that the data and content can be read. However, "lecture1" is a directory and not a file so there is no content or data that can be read
