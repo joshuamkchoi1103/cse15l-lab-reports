@@ -1,7 +1,7 @@
 ```cd```
 1. - ![Image](Screenshot_2023-10-03_125519.png)
    - The working directory when the command was run was in the default home directory
-   - I got that output because when you have ```cd``` without any arguments, it will take you back to the home directory. Since I was already in the home directory I did not do anything(```cd``` = change directory)
+   - I got that output because when you have ```cd``` without any arguments, it will take you back to the home directory. Since I was already in the home directory the command did not do anything(```cd``` = change directory)
    - The output is not an error.
 2. - ![Image](Screenshot_2023-10-03_132418.png)
    - The working directory when the command was run was in the default home directory
