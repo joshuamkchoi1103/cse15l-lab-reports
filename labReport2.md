@@ -1,4 +1,4 @@
-Part 1
+Part 1<br>
 CODE
 ```
 import java.io.IOException;
@@ -42,6 +42,6 @@ class StringServer {
     }
 }
 ```
-SCREENSHOTS
-![Image](Screenshot 20231018160331.png)
-![Image](Screenshot 20231018160416.png)
+SCREENSHOTS<br>
+![Image](Screenshot20231018160331.png)
+![Image](Screenshot20231018160416.png)
