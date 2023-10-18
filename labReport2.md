@@ -45,3 +45,8 @@ class StringServer {
 SCREENSHOTS<br>
 ![Image](Screenshot20231018160331.png)
 ![Image](Screenshot20231018160416.png)
+
+Part 2<br>
+- ![Image](Screenshot20231018162410.png)
+- ![Image](Screenshot20231018162633.png)
+- ![Image](Screenshot20231018162951.png)
