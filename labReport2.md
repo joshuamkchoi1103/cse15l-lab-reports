@@ -50,3 +50,6 @@ Part 2<br>
 - ![Image](Screenshot20231018162410.png)
 - ![Image](Screenshot20231018162633.png)
 - ![Image](Screenshot20231018162951.png)
+
+Part 3<br>
+Something I learned from lab that I did not know before was that we can access the remote server through our own ieng6 accounts. After using EdStem for lab last week and logging into the remote server on there, I was fascinated by the fact that I can do that on my computer locally by using Git Bash. I was also amazed by the fact that we can setup our ieng6accounts to automatically login without prompting for password when we ssh into the server.
