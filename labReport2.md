@@ -48,8 +48,7 @@ SCREENSHOTS<br>
 - From this specific request, the value of count increments by 1 after the user ```/add-message```. So the value of count is 2 after the ```/add-message``` is ran. The result Stringbuilder was empty before the request and now has the content of the message(Hello) with the message number(1) and a new line is created after.<br>
 ![Image](Screenshot20231018160416.png)
 - In my code, the following methods are being called: ```handleRequest(URI url)```,```url.getPath().contains(CharSequence s)```,```url.getQuery().split(String regex)```,```parameters[0].equals(Object anObject)```,```result.append(int i).append(String s).append(String s).append(String s)```,```result.toString()```
-- For the methods, the following are the relevant arguments: ```handleRequest(/add-message?s=Joshua)```,```url.getPath().contains("/add-message")```,```url.getQuery().split("=")```,```parameters[0].equals("s")```,```result.append(2).append(". ").append("Joshua").append("\n")```,```result.toString()```. The value of the relevant fields include int count = 1, StringBuilder result = "1. Hello
-".  
+- For the methods, the following are the relevant arguments: ```handleRequest(/add-message?s=Joshua)```,```url.getPath().contains("/add-message")```,```url.getQuery().split("=")```,```parameters[0].equals("s")```,```result.append(2).append(". ").append("Joshua").append("\n")```,```result.toString()```. The value of the relevant fields include int count = 1, StringBuilder result = "1. Hello".  
 - From this specific request, the value of count increments by 1 after the user ```/add-message```. So the value of count was 2 and is 3 after the ```/add-message``` is ran. The result Stringbuilder had the content of the first message(1. Hello) with a new line created before the request and now has the content of the second message(2. Joshua) and a new line is created after.
 
 **Part 2**<br>
