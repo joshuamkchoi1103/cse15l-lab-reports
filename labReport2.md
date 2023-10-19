@@ -45,12 +45,12 @@ class StringServer {
 SCREENSHOTS<br>
 ![Image](Screenshot20231018160331.png)
 - In my code, the following methods are being called: ```main(String[] args)```,```Integer.parseInt(String s)```,```Server.start(int port, URLHandler handler)```,```StringBuilder()```,```url.getPath().contains(CharSequence s)```,```url.getQuery().split(String regex)```,```parameters[0].equals(Object anObject)```,```result.append(int i).append(String s).append(String s).append(String s)```,```result.toString()```
-- For the methods, the following are the relevant arguments: ```main(4000)```,```Integer.parseInt(args[0])```,```Server.start(port, new Handler)```,```StringBuilder()```,```url.getPath().contains("/add-message")```,```url.getQuery().split("=")```,```parameters[0].equals("s")```,```result.append(count).append(". ").append(parameters[1]).append("\n")```,```result.toString()```. The value of the relevant fields include int count = 1, StringBuilder result = new StringBuilder().  
+- For the methods, the following are the relevant arguments: ```main({"4000"})```,```Integer.parseInt("4000")```,```Server.start(4000, new Handler)```,```StringBuilder()```,```url.getPath().contains("/add-message")```,```url.getQuery().split("=")```,```parameters[0].equals("s")```,```result.append(1).append(". ").append("Hello").append("\n")```,```result.toString()```. The value of the relevant fields include int count = 1, StringBuilder result = new StringBuilder().  
 - From this specific request, the value of count increments by 1 after the user ```/add-message```. So the value of count is 2 after the ```/add-message``` is ran. The result Stringbuilder was empty before the request and now has the content of the message with the message number and a new line is created after.
 ![Image](Screenshot20231018160416.png)
-- d
-- d
-- d
+- In my code, the following methods are being called: ```main(String[] args)```,```Integer.parseInt(String s)```,```Server.start(int port, URLHandler handler)```,```StringBuilder()```,```url.getPath().contains(CharSequence s)```,```url.getQuery().split(String regex)```,```parameters[0].equals(Object anObject)```,```result.append(int i).append(String s).append(String s).append(String s)```,```result.toString()```
+- For the methods, the following are the relevant arguments: ```main({"4000"})```,```Integer.parseInt("4000")```,```Server.start(4000, new Handler)```,```StringBuilder()```,```url.getPath().contains("/add-message")```,```url.getQuery().split("=")```,```parameters[0].equals("s")```,```result.append(2).append(". ").append("Joshua").append("\n")```,```result.toString()```. The value of the relevant fields include int count = 1, StringBuilder result = new StringBuilder().  
+- From this specific request, the value of count increments by 1 after the user ```/add-message```. So the value of count was 2 and is 3 after the ```/add-message``` is ran. The result Stringbuilder had the content of the first message before the request and now has the content of the second message with the message number(2) and a new line is created after.
 
 **Part 2**<br>
 - ![Image](Screenshot20231018162410.png)
