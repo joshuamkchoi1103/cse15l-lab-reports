@@ -45,7 +45,7 @@ class StringServer {
 SCREENSHOTS<br>
 ![Image](Screenshot20231018160331.png)
 - In my code, the following methods are being called: ```main(String[] args)```,```Integer.parseInt(String s)```,```Server.start(int port, URLHandler handler)```,```StringBuilder()```,```url.getPath().contains(CharSequence s)```,```url.getQuery().split(String regex)```,```parameters[0].equals(Object anObject)```,```result.append(int i).append(String s).append(String s).append(String s)```,```result.toString()```
-- For
+- For the methods, the following are the relevant arguments: ```main(4000)```,```Integer.parseInt(args[0])```,```Server.start(port, new Handler)```,```StringBuilder()```,```url.getPath().contains("/add-message")```,```url.getQuery().split("=")```,```parameters[0].equals("s")```,```result.append(count).append(". ").append(parameters[1]).append("\n")```,```result.toString()```
 - d
 ![Image](Screenshot20231018160416.png)
 - d
