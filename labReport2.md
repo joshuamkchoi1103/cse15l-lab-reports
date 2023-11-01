@@ -52,7 +52,7 @@ SCREENSHOTS<br>
 - From this specific request, the value of count increments by 1 after the result StringBuilder is formed. So the value of count was 2 and is 3 after the the append functions are ran. The result Stringbuilder had the content of the first message(1. Hello) with a new line created before the request and now has the content of the second message(2. Joshua) and a new line is created after.
 
 **Part 2**<br>
-- ![Image](Screenshot20231018162410.png)
+- ![Image](Screenshot20231031183558.png)
   The private key is id_rsa.
 - ![Image](Screenshot20231018162633.png)
 - ![Image](Screenshot20231018162951.png)
