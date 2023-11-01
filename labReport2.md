@@ -53,6 +53,7 @@ SCREENSHOTS<br>
 
 **Part 2**<br>
 - ![Image](Screenshot20231018162410.png)
+  The private key is id_rsa.
 - ![Image](Screenshot20231018162633.png)
 - ![Image](Screenshot20231018162951.png)
 
