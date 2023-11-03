@@ -81,3 +81,14 @@ technical/government/Media
 technical/government/Post_Rate_Comm
 ```
 In this example, the command is finding all the files and directories within the technical/government directory that is only 1 depth deep maximum. This is convenient because it allows you to put a limit on the depth of the directory tree.
+
+3. ```-```<br>
+**Example 1:**<br>
+Command: ```s```<br>
+Output: ```s```<br>
+Sentence.<br>
+
+**Example 2:**<br>
+Command: ```s```<br>
+Output: ```s```<br>
+Sentence.<br>
