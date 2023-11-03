@@ -41,3 +41,6 @@ AFTER:
 ```
 This fix addresses the issue because before, in the method it would forget the value of arr[i] and we would be losing track of it. Therefore, a temp variable is necessary to remember that value so that it can be assigned to the other index as a result of reversing the order.
 
+
+**Part 2**<br>
+
