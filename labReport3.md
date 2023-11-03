@@ -79,5 +79,5 @@ technical/government/Env_Prot_Agen
 technical/government/Gen_Account_Office
 technical/government/Media
 technical/government/Post_Rate_Comm
-```<br>
+```
 In this example, the command is finding all the files and directories within the technical/government directory that is only 1 depth deep maximum. This is convenient because it allows you to put a limit on the depth of the directory tree.
