@@ -55,7 +55,7 @@ Command: ```find -name "Alcohol_Problems"```<br>
 Output: ```./technical/government/Alcohol_Problems```<br>
 In this example, the command is looking for the Alcohol_Problems directory and it returns the directory path. This is helpful because rather than trying to find the directory by searching manually this command can speed the process.<br>
 
-2. ```-maxdepth```<br>
+2. ```-maxdepth```
 **Example 1:**<br>
 Command: ```find technical/ -maxdepth 1```<br>
 Output:
