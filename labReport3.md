@@ -290,3 +290,8 @@ technical/government/Post_Rate_Comm
 technical/plos
 ```
 In this example, the command is searching for all directories within technical and giving the path for each one. This is efficient because it shows all the directories and subdirectories within the path you provide in the argument.<br>
+
+
+CITED SOURCES<br>
+https://www.redhat.com/sysadmin/linux-find-command
+Typed in google: find command-line options
