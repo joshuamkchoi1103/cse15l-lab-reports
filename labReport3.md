@@ -119,15 +119,6 @@ Output:
 ```
 In this example, it is listing the contents of the path(technical/911report) given in the command and it also searches the subdirectories. This is helpful when you want to see what the directory contains through command.<br>
 
-**Example 1:**<br>
-Command: ```find -name "chapter-1.txt"```<br>
-Output: ```./technical/911report/chapter-1.txt```<br>
-In this example, the command is looking for the chapter-1.txt and it returns the file path. This is helpful because rather than trying to find the file by searching manually this command can speed the process.<br>
-
-**Example 2:**<br>
-Command: ```find -name "Alcohol_Problems"```<br>
-Output: ```./technical/government/Alcohol_Problems```<br>
-In this example, the command is looking for the Alcohol_Problems directory and it returns the directory path. This is helpful because rather than trying to find the directory by searching manually this command can speed the process.<br>
 
 4. ```-```<br>
 **Example 1:**<br>
