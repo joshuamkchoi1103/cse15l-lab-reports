@@ -59,11 +59,13 @@ In this example, the command is looking for the Alcohol_Problems directory and i
 **Example 1:**<br>
 Command: ```find technical/ -maxdepth 1```<br>
 Output:
-```technical/
+```
+technical/
 technical/911report
 technical/biomed
 technical/government
-technical/plos```
+technical/plos
+```
 In this example, the command is finding all the files and directories that is only 1 level deep within the technical directory. This is a useful command when you want to take a look at your file structure at a specific depth/level.<br>
 
 **Example 2:**<br>
