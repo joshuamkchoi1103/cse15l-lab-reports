@@ -93,9 +93,28 @@ Output:
 6192449487740146     96 -rw-r--r--   1 joshu    197609      95891 Oct 31 12:10 technical/government/Alcohol_Problems/Session3-PDF.txt
 6755399441161459     80 -rw-r--r--   1 joshu    197609      81409 Oct 31 12:10 technical/government/Alcohol_Problems/Session4-PDF.txt
 ```
-In this example, it is listing the contents of the path given in the command and it also searches the subdirectories. This is helpful when you want to see what the directory contains through command.<br>
+In this example, it is listing the contents of the path(technical/government/Alcohol_Problems) given in the command and it also searches the subdirectories. This is helpful when you want to see what the directory contains through command.<br>
 
 **Example 2:**<br>
-Command: ```s```<br>
-Output: ```s```<br>
-Sentence.<br>
+Command: ```find technical/911report/ -ls```<br>
+Output: 
+```8725724278087991      4 drwxr-xr-x   1 joshu    197609          0 Oct 31 12:10 technical/911report/
+9851624184930618    120 -rw-r--r--   1 joshu    197609     119387 Oct 31 12:10 technical/911report/chapter-1.txt
+14636698789011795     48 -rw-r--r--   1 joshu    197609      47910 Oct 31 12:10 technical/911report/chapter-10.txt
+20547673299935584     72 -rw-r--r--   1 joshu    197609      71968 Oct 31 12:10 technical/911report/chapter-11.txt
+ 7599824371245409    128 -rw-r--r--   1 joshu    197609     129126 Oct 31 12:10 technical/911report/chapter-12.txt
+ 7036874417824099     92 -rw-r--r--   1 joshu    197609      90943 Oct 31 12:10 technical/911report/chapter-13.1.txt
+13229323905458537    112 -rw-r--r--   1 joshu    197609     111804 Oct 31 12:10 technical/911report/chapter-13.2.txt
+ 9570149208220015    152 -rw-r--r--   1 joshu    197609     152185 Oct 31 12:10 technical/911report/chapter-13.3.txt
+ 5348024557560183    264 -rw-r--r--   1 joshu    197609     268853 Oct 31 12:10 technical/911report/chapter-13.4.txt
+14918173765722494    288 -rw-r--r--   1 joshu    197609     294230 Oct 31 12:10 technical/911report/chapter-13.5.txt
+23643898043752852     80 -rw-r--r--   1 joshu    197609      80751 Oct 31 12:10 technical/911report/chapter-2.txt
+15199648742433184    264 -rw-r--r--   1 joshu    197609     267519 Oct 31 12:10 technical/911report/chapter-3.txt
+11821949021905317    100 -rw-r--r--   1 joshu    197609     100212 Oct 31 12:10 technical/911report/chapter-5.txt
+12384898975326636    148 -rw-r--r--   1 joshu    197609     150961 Oct 31 12:10 technical/911report/chapter-6.txt
+22517998136910261    128 -rw-r--r--   1 joshu    197609     129949 Oct 31 12:10 technical/911report/chapter-7.txt
+ 6473924464402894     84 -rw-r--r--   1 joshu    197609      85871 Oct 31 12:10 technical/911report/chapter-8.txt
+ 8162774324666853    148 -rw-r--r--   1 joshu    197609     151529 Oct 31 12:10 technical/911report/chapter-9.txt
+ 6192449487692300     12 -rw-r--r--   1 joshu    197609       9440 Oct 31 12:10 technical/911report/preface.txt
+```
+In this example, it is listing the contents of the path(technical/911report) given in the command and it also searches the subdirectories. This is helpful when you want to see what the directory contains through command.<br>
