@@ -58,12 +58,13 @@ In this example, the command is looking for the Alcohol_Problems directory and i
 2. ```-maxdepth```<br>
 Example 1:<br>
 Command: ```find technical/ -maxdepth 1```<br>
-Output: ```technical/
+Output: ```
+technical/
 technical/911report
 technical/biomed
 technical/government
 technical/plos
-```<br>
+```
 
 Example 2:
 Command: ```s```
