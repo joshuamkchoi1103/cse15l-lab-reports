@@ -92,7 +92,7 @@ Output:
 7599824371293423     36 -rw-r--r--   1 joshu    197609      36564 Oct 31 12:10 technical/government/Alcohol_Problems/Session2-PDF.txt
 6192449487740146     96 -rw-r--r--   1 joshu    197609      95891 Oct 31 12:10 technical/government/Alcohol_Problems/Session3-PDF.txt
 6755399441161459     80 -rw-r--r--   1 joshu    197609      81409 Oct 31 12:10 technical/government/Alcohol_Problems/Session4-PDF.txt
-```<br>
+```
 In this example, it is listing the contents of the path given in the command and it also searches the subdirectories. This is helpful when you want to see what the directory contains through command.<br>
 
 **Example 2:**<br>
