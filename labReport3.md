@@ -12,4 +12,4 @@ Bug: reverseInPlace() in ArrayExamples
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{3}, input1);
 	}```
-  - ![image](Screenshot20231102172002.png)
+  - ![Image](Screenshot20231102172002.png)
