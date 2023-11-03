@@ -120,13 +120,26 @@ Output:
 In this example, it is listing the contents of the path(technical/911report) given in the command and it also searches the subdirectories. This is helpful when you want to see what the directory contains through command.<br>
 
 
-4. ```-```<br>
+4. ```-type```<br>
 **Example 1:**<br>
 Command: ```find -name "chapter-1.txt"```<br>
 Output: ```./technical/911report/chapter-1.txt```<br>
 In this example, the command is looking for the chapter-1.txt and it returns the file path. This is helpful because rather than trying to find the file by searching manually this command can speed the process.<br>
 
 **Example 2:**<br>
-Command: ```find -name "Alcohol_Problems"```<br>
-Output: ```./technical/government/Alcohol_Problems```<br>
-In this example, the command is looking for the Alcohol_Problems directory and it returns the directory path. This is helpful because rather than trying to find the directory by searching manually this command can speed the process.<br>
+Command: ```find technical/ -type d```<br>
+Output: 
+```
+technical/
+technical/911report
+technical/biomed
+technical/government
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
+technical/plos
+```
+In this example, the command is searching for all directories within technical and giving the path for each one. This is efficient because it shows all the directories and subdirectories within the path you provide in the argument.<br>
