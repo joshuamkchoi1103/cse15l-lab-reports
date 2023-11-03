@@ -50,13 +50,13 @@ Command: ```find -name "chapter-1.txt"```<br>
 Output: ```./technical/911report/chapter-1.txt```<br>
 In this example, the command is looking for the chapter-1.txt and it returns the file path. This is helpful because rather than trying to find the file by searching manually this command can speed the process.<br>
 
-Example 2:<br>
+**Example 2:**<br>
 Command: ```find -name "Alcohol_Problems"```<br>
 Output: ```./technical/government/Alcohol_Problems```<br>
 In this example, the command is looking for the Alcohol_Problems directory and it returns the directory path. This is helpful because rather than trying to find the directory by searching manually this command can speed the process.<br>
 
 2. ```-maxdepth```<br>
-Example 1:<br>
+**Example 1:**<br>
 Command: ```find technical/ -maxdepth 1```<br>
 Output:
 ```
@@ -66,8 +66,9 @@ technical/biomed
 technical/government
 technical/plos
 ```
+In this example, the command is finding all the files and directories that is only 1 level deep within the technical directory. This is a useful command when you want to take a look at your file structure at a specific depth/level.
 
-Example 2:
+**Example 2:**
 Command: ```s```
 Output: ```s```
 
