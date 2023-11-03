@@ -1,6 +1,7 @@
 **Part 1**<br>
 Bug: reverseInPlace() in ArrayExamples
 ```
+- 
 - @Test 
 	public void testReverseInPlace1() {
     int[] input1 = {3, 2};
