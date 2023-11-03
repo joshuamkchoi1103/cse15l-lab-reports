@@ -45,7 +45,7 @@ This fix addresses the issue because before, in the method it would forget the v
 **Part 2**<br>
 Command: ```find```<br>
 1. ```-name```<br>
-Example 1:<br>
+**Example 1:**<br>
 Command: ```find -name "chapter-1.txt"```<br>
 Output: ```./technical/911report/chapter-1.txt```<br>
 In this example, the command is looking for the chapter-1.txt and it returns the file path. This is helpful because rather than trying to find the file by searching manually this command can speed the process.<br>
