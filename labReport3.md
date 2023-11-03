@@ -66,9 +66,9 @@ technical/biomed
 technical/government
 technical/plos
 ```
-In this example, the command is finding all the files and directories that is only 1 level deep within the technical directory. This is a useful command when you want to take a look at your file structure at a specific depth/level.
+In this example, the command is finding all the files and directories that is only 1 level deep within the technical directory. This is a useful command when you want to take a look at your file structure at a specific depth/level.<br>
 
-**Example 2:**
-Command: ```s```
-Output: ```s```
+**Example 2:**<br>
+Command: ```s```<br>
+Output: ```s```<br>
 
