@@ -69,6 +69,15 @@ technical/plos
 In this example, the command is finding all the files and directories that is only 1 level deep within the technical directory. This is a useful command when you want to take a look at your file structure at a specific depth/level.<br>
 
 **Example 2:**<br>
-Command: ```s```<br>
-Output: ```s```<br>
-
+Command: ```find technical/government/ -maxdepth 1```<br>
+Output: 
+```
+technical/government/
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
+```<br>
+In this example, the command is finding all the files and directories within the technical/government directory that is only 1 depth deep maximum. This is convenient because it allows you to put a limit on the depth of the directory tree.
