@@ -1,5 +1,6 @@
 **Part 1**<br>
 Bug: reverseInPlace() in ArrayExamples
+
 - 
 ```
  	@Test 
@@ -11,7 +12,7 @@ Bug: reverseInPlace() in ArrayExamples
 ```
 - 
 ```
-- 	@Test 
+ 	@Test 
 	public void testReverseInPlace2() {
     int[] input1 = {3};
     ArrayExamples.reverseInPlace(input1);
