@@ -82,11 +82,18 @@ technical/government/Post_Rate_Comm
 ```
 In this example, the command is finding all the files and directories within the technical/government directory that is only 1 depth deep maximum. This is convenient because it allows you to put a limit on the depth of the directory tree.
 
-3. ```-```<br>
+3. ```-ls```<br>
 **Example 1:**<br>
-Command: ```s```<br>
-Output: ```s```<br>
-Sentence.<br>
+Command: ```find technical/government/Alcohol_Problems/ -ls```<br>
+Output:
+```
+5629499534318828      4 drwxr-xr-x   1 joshu    197609          0 Oct 31 12:10 technical/government/Alcohol_Problems/
+6473924464450797     32 -rw-r--r--   1 joshu    197609      32413 Oct 31 12:10 technical/government/Alcohol_Problems/DraftRecom-PDF.txt
+7599824371293423     36 -rw-r--r--   1 joshu    197609      36564 Oct 31 12:10 technical/government/Alcohol_Problems/Session2-PDF.txt
+6192449487740146     96 -rw-r--r--   1 joshu    197609      95891 Oct 31 12:10 technical/government/Alcohol_Problems/Session3-PDF.txt
+6755399441161459     80 -rw-r--r--   1 joshu    197609      81409 Oct 31 12:10 technical/government/Alcohol_Problems/Session4-PDF.txt
+```<br>
+In this example, it is listing the contents of the path given in the command and it also searches the subdirectories. This is helpful when you want to see what the directory contains through command.<br>
 
 **Example 2:**<br>
 Command: ```s```<br>
