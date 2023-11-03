@@ -45,7 +45,7 @@ This fix addresses the issue because before, in the method it would forget the v
 **Part 2**<br>
 Command: ```find```
 Command Line Options
-1. ```-name```<br>
+1. ```-name```
 Example 1:<br>
 Command: ```find -name "chapter-1.txt"```<br>
 Output: ```./technical/911report/chapter-1.txt```<br>
