@@ -44,4 +44,24 @@ This fix addresses the issue because before, in the method it would forget the v
 
 **Part 2**<br>
 Command: ```find```
+Command Line Options
+1. ```-name```
+Example 1:
+Command: ```find -name "chapter-1.txt"```
+Output: ```./technical/911report/chapter-1.txt```
+In this example, the command is looking for the chapter-1.txt and it returns the file path. This is helpful because rather than trying to find the file by searching manually this command can speed the process.
+
+Example 2:
+Command: ```find -name "Alcohol_Problems"```
+Output: ```./technical/government/Alcohol_Problems```
+In this example, the command is looking for the Alcohol_Problems directory and it returns the directory path. This is helpful because rather than trying to find the directory by searching manually this command can speed the process.
+
+2. ```d```
+Example 1:
+Command: ```s```
+Output: ```s```
+
+Example 2:
+Command: ```s```
+Output: ```s```
 
