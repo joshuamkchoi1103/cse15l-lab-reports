@@ -15,9 +15,11 @@ The first use of ```<Tab>``` completed the directory name(```lab7```) I wanted t
 7. ![Image](picture4.png)<br>
 ![Image](picture5.png)<br>
 ```vim<Space>Lis<Tab>.<Tab><Enter>```, ```i<left><left><left><left><left><Backspace>2<Esc>:wq<Enter>```<br>
+The first use of ```<Tab>``` completed the filename to ```ListExamples``` and then I had to manually add ```.```. Then I used ```<Tab>``` for the second time to add ```java``` so that I can edit the file through vim. I typed ```i``` to go into INSERT MODE. THe cursor was originally at the ```;``` so I pressed ```<left>``` 5 times and then changed it from ```index1``` to ```index2```<br>
 <br>
 8. ![Image](picture6.png)<br>
 ```<up><up><Enter>```<br>
+The command ```bash test.sh``` was in my history because I used it before so I had to press ```<up>``` twice to get it.
 <br>
 9. ![Image](picture7.png)<br>
 ```git<Space>add<Space>Lis<Tab><Enter>```, ```git<Space>commit<Space>-m<Space>"Fixed<Space>Bug"<Enter>```, ```git<Space>push<Enter>```<br>
