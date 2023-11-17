@@ -2,9 +2,11 @@
 <br>
 4. ![Image](picture1.png)<br>
 ```ssh<Space>cs15lfa23lb@ieng6-201.ucsd.edu<Enter>```<br>
+ssh into the ieng6 server using cse 15l specific account. Didn't use any shortcuts here.<br>
 <br>
 5. ![Image](picture2.png)<br>
 ```git<Space>clone<Space><Ctrl-V><Enter>```<br>
+The ssh github repository link was copied onto the clipboard so I did ```<Ctrl-V``` to paste this link: git@github.com:joshuamkchoi1103/lab7.git<br>
 <br>
 6. ![Image](picture3.png)<br>
 ```cd<Space>l<Tab><Enter>```, ```bash<Space>t<Tab><Enter>```<br>
