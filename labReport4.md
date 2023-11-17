@@ -6,10 +6,11 @@ ssh into the ieng6 server using cse 15l specific account. Didn't use any shortcu
 <br>
 5. ![Image](picture2.png)<br>
 ```git<Space>clone<Space><Ctrl-V><Enter>```<br>
-The ssh github repository link was copied onto the clipboard so I did ```<Ctrl-V``` to paste this link: git@github.com:joshuamkchoi1103/lab7.git<br>
+The ssh github repository link was copied onto the clipboard so I did ```<Ctrl-V>``` to paste this link: **git@github.com:joshuamkchoi1103/lab7.git**<br>
 <br>
 6. ![Image](picture3.png)<br>
 ```cd<Space>l<Tab><Enter>```, ```bash<Space>t<Tab><Enter>```<br>
+The first use of ```<Tab>``` completed the directory name(```lab7```) I wanted to ```cd``` into. The second use of ```<Tab>``` completed the name of the bash file(```test.sh```) I wanted to run.<br>
 <br>
 7. ![Image](picture4.png)<br>
 ![Image](picture5.png)<br>
