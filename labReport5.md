@@ -11,6 +11,6 @@ The bug was that the array was accessing an element outside the index. The first
 ![Image](image3.png) <br>
 ![Image](image4.png) <br>
 ![Image](image1.png) <br>
-To fix the bug, I changed the reverseMethod to have ```list[list.length - 1 - i]``` so that it does not get an ```IndexOutOfBoundsException```. I also changed ```assertEquals``` to ```assertArrayEquals```. The bug was fixes after these edits. 
+To fix the bug, I changed the reverseMethod to have ```list[list.length - 1 - i]``` so that it does not get an ```IndexOutOfBoundsException```. I also changed ```assertEquals``` to ```assertArrayEquals```. The bug was fixes after these edits.<br>
 **Part 2 - Reflection**<br>
 In the second half of this quarter, one thing I learned was how to use the VIM editor. I found it really cool that we don't need a code editor and we can edit code through the terminal window. For my CSE 12 class, I experimented with editing the code through VIM and running it through commands for fun and it was fascinating. Overall, I learned a lot from this class and my experience was wonderful with the help of the CSE 15L Staff!
