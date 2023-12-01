@@ -3,7 +3,7 @@
 **1. Student:** I am not sure with what is wrong with my reverseArray method. Could it be possible that I am accessing an index that is out of bounds?<br>
 ![Image](image1.png) <br>
 **2. TA:** Take a look at your reverseArray method and see if you have an array of size 5 what the first iteration would do. If the array length is 5, can you access the index 5? And also, can you do assertEquals with 2 arrays?<br>
-**3. Student:** [Image](image7.png) <br>
+**3. Student:** ![Image](image7.png) <br>
 The bug was that the array was accessing an element outside the index. The first iteration of the loop was accessing the array size index which an error comes up. <br>
 **4.**
 ![Image](image5.png) <br>
