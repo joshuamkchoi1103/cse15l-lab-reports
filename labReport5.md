@@ -1,3 +1,4 @@
+**Lab Report 5**<br>
 **Part 1 - Debugging Scenario**<br>
 **1. Student:** I am not sure with what is wrong with my reverseArray method. Could it be possible that I am accessing an index that is out of bounds?<br>
 ![Image](image1.png) <br>
