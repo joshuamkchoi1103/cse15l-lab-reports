@@ -5,7 +5,7 @@
 ![Image](image3.png) <br>
 ![Image](image4.png) <br>
 ![Image](image5.png) <br>
-**TA:** Take a look at your reverseArray method and see if you have an array of size 5 what the first iteration would do. If the array length is 5, can you access the index 5?<br>
+**TA:** Take a look at your reverseArray method and see if you have an array of size 5 what the first iteration would do. If the array length is 5, can you access the index 5? And also, can you do assertEquals with 2 arrays?<br>
 **Student:** 
 
 **Part 2 - Reflection**<br>
